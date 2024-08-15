@@ -1,12 +1,12 @@
-const superHeroes: Array<string | User> = [];
+const superHeroes: Array<string | User2> = [];
 superHeroes.push("Spiderman", "Ironman");
 
-type User = {
+type User2 = {
   name: string;
   isActive: boolean;
 }
 
-const user1: User = {
+const user1: User2 = {
   name: 'Souradip',
   isActive: false
 }
